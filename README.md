@@ -21,10 +21,10 @@ tiramisu-utilities/                 # repo root
 ├── transmit_phone.py               # setup a LAN endpoint for phone and/or other devices to obtain certain file from this computer
 └── youtubeAudioPipeline.ipynb      # Automates downloading royalty-free music and embedding metadata
 ```
-## `AdcomTrainTimer.py` 
+## `AdComTrainTimer.py` 
 **Purpose**: To track time between [Exchange Express](https://adventurecommunist.fandom.com/wiki/Exchange_Express) and receive desktop notifications when one is about to arrive, best used when running [Adventure Communist on PC](https://play.google.com/pc-store/games/details?id=com.kongregate.mobile.adventurecommunist.google)
 
-**Feature**: `tkinter` for Simple GUI, `asyncio` and `threading` for **uninterrupted** background timer tracking **while handling frontend click events**. [`desktop_notifier`](https://pypi.org/project/desktop-notifier/) for receiving train arrival notice, so I don't need to waste time on actively monitoring the game tab
+**Feature**: `tkinter` for Simple GUI, `asyncio` and `threading`to track GUI Events ... **BUT LOOK AT THE TIME!** Timer is **uninterrupted** while handling frontend click events. [`desktop_notifier`](https://pypi.org/project/desktop-notifier/) for receiving train arrival notice, so I don't need to waste time on actively monitoring the game tab
 
 ## `MilkywayEnhancing.ipynb`
 **Purpose**: To simulate possible outcomes when using [Enhancing in Milky Way Idle](https://milkywayidle.wiki.gg/wiki/Enhancing#Success_Rate) for better in-game resource management and decision-making
