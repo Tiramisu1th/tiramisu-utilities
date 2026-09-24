@@ -29,10 +29,10 @@ tiramisu-utilities/                 # repo root
 ## `MilkywayEnhancing.ipynb`
 **Purpose**: To simulate possible outcomes when using [Enhancing in Milky Way Idle](https://milkywayidle.wiki.gg/wiki/Enhancing#Success_Rate) for better in-game resource management and decision-making
 
-**Feature**: Use Large sample size simulation inspired from [Monte Carlo Casino](https://en.wikipedia.org/wiki/Monte_Carlo_method) to find out **Mean**, **Median**, **Standard Deviation** and **Common Percentiles** so that I can better balance materials to prepare and chance of failure
+**Feature**: Use Large sample size simulation inspired from [Monte Carlo Casino](https://en.wikipedia.org/wiki/Monte_Carlo_method) to find out **Extreme Percentiles** so that I prevent **TRYING TO BUILD A PYRAMID, BUT THERE IS NO MORE CLAY**
 
 ## `Zealots.ipynb`
-**Purpose**: To simulate avg. zealot kills and its distribution on Hypixel Skyblock in order to drop a [Summoning Eye](https://hypixelskyblock.minecraft.wiki/w/Special_Zealot#Spawning). This is a good mental placebo when I feel unlucky in a "zealot downswing"
+**Purpose**: To simulate avg. zealot kills and its distribution on Hypixel Skyblock in order to drop a [Summoning Eye](https://hypixelskyblock.minecraft.wiki/w/Special_Zealot#Spawning). This is a good mental placebo even when I feel unlucky in a "zealot downswing", because **IN THIS CATHEDRAL, EVERY HEADSHOT IS A PRAYER ANSWERED**
 
 **Feature**: Use Large sample size simulation inspired from [Monte Carlo Casino](https://en.wikipedia.org/wiki/Monte_Carlo_method) to find out **Mean**, **5-number summary**, **Standard Deviation** and optional **Data Visualization** using [`matplotlib.pyplot`](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html)
 
